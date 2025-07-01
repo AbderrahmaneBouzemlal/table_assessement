@@ -13,5 +13,11 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://flask-backend-591086055772.us-central1.run.app/api/$1"
+    }
   ]
 }
