@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-let url = `https://flask-backend-591086055772.us-central1.run.app`;
+let url = `/api`;
 
 const rows = ref([]);
 const values = ref({});
