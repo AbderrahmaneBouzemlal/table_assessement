@@ -12,7 +12,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://flask-backend-591086055772.us-central1.run.app",
+        target: "https://flask-backend-591086055772.us-central1.run.app ",
         changeOrigin: true,
       },
     },

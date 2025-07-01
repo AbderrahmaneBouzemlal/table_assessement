@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-CORS(app, origins=["https://abderrahmanebouzemlal.github.io/table_assessement", 'http://localhost:5173'])
+CORS(app, origins='*')
 
 def load_data():
     """Loads data from the csv file"""
