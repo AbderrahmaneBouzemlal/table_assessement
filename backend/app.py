@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5174"])
+CORS(app, origins=["https://table-assessement.vercel.app/"])
 
 def load_data():
     """Loads data from the csv file"""
