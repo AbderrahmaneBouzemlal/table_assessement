@@ -1,8 +1,9 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-let url = `/api`;
-
+const url = import.meta.env.PROD 
+  ? "https://flask-backend-591086055772.us-central1.run.app/api"
+  : "/api";
 const rows = ref([]);
 const values = ref({});
 const loading = ref(true);
